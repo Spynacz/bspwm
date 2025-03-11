@@ -60,6 +60,7 @@
 #define IGNORE_EWMH_FULLSCREEN      0
 #define IGNORE_EWMH_STRUTS          false
 
+#define HIDE_BY_MOVING              false
 #define CENTER_PSEUDO_TILED         true
 #define HONOR_SIZE_HINTS            HONOR_SIZE_HINTS_NO
 #define MAPPING_EVENTS_COUNT        1
@@ -106,6 +107,7 @@ extern bool ignore_ewmh_focus;
 extern bool ignore_ewmh_struts;
 extern state_transition_t ignore_ewmh_fullscreen;
 
+extern bool hide_by_moving;
 extern bool center_pseudo_tiled;
 extern honor_size_hints_mode_t honor_size_hints;
 

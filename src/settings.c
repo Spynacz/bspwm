@@ -129,6 +129,7 @@ void load_settings(void)
 	ignore_ewmh_fullscreen = IGNORE_EWMH_FULLSCREEN;
 	ignore_ewmh_struts = IGNORE_EWMH_STRUTS;
 
+	hide_by_moving = HIDE_BY_MOVING;
 	center_pseudo_tiled = CENTER_PSEUDO_TILED;
 	honor_size_hints = HONOR_SIZE_HINTS;
 
