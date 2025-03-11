@@ -66,6 +66,7 @@ bool ignore_ewmh_focus;
 bool ignore_ewmh_struts;
 state_transition_t ignore_ewmh_fullscreen;
 
+bool hide_by_moving;
 bool center_pseudo_tiled;
 honor_size_hints_mode_t honor_size_hints;
 
